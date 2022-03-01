@@ -9,14 +9,15 @@ body{
 } 
 a{
   text-decoration: none;
-  color: #177e89;
+  color: #52b788;
 } 
 header{
   height: 230px;
+  width: 1455px;
   padding: 20px 0 70px 0;
   background: #2d6360 50% 0;
   text-align: center;
-    
+  padding-right: 20%;  
 }
 h1, h2 {
   padding: 0 10%;
@@ -40,12 +41,31 @@ h2 {
   font-size: 1.6em;
   font-style: italic;
 }
+.index{
+  position: absolute;
+  display: block;
+  margin-top: 0;
+  font-size: 2.2em;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: rgba(229, 237, 232, 0.5);
+  width: 323px;
+  height: 700px;
+  color: #52b788;
+  left: 80%;
+  top: 0px;
+  clear: left;
+  padding-top: 350px ;
+  z-index: 1;
+  
+}
 
 #foto{
   position: absolute;
-  left: 10px;
+  right: 10px;
   top: 10px;
   border-radius: 50%;
+  z-index: 2;
 }
 
 
