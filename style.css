@@ -1,17 +1,119 @@
-#foto{
-   border-radius: 50%;
- }
-.titulos{
-   font-family: Montserrat;
-   color: #FFC857 ;
- }
-.textos{
-  font-family: Montserrat;
-  color: #ffffff;
-  }
-.links{
-  color: #DB3A34;
-}  
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
 body{
-  background-color: #323031;
-}  
+  color: #40916c;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+} 
+a{
+  text-decoration: none;
+  color: #272932;
+} 
+header{
+  height: 230px;
+  width: 1455px;
+  padding: 20px 0 70px 0;
+  background: #2D6A4F 50% 0;
+  text-align: center;
+  padding-right: 20%;  
+}
+h1, h2 {
+  padding: 0 10%;
+  margin: 0;
+  color: rgba(255,255,255,0.6);
+  font-weight: normal;
+}
+h1 {
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-size: 3.5em;
+  
+}
+h2 {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  border-top: none;
+  color: rgba(255,255,255,0.6);
+  font-size: 2.5em;
+  font-style: italic;
+}
+h3{
+  
+  padding-top: 5px;
+  padding-bottom: 0.1em;
+  border-top: none;
+  margin: 0;
+  font-size: 2.5em;
+  color: #272932;
+  width: 22em;
+  font-family: Julius Sans One;
+  text-align: center;
+}
+a:hover{
+  color: #F05D5E;
+}
+
+.conteudo{
+  position: absolute;
+  margin-left: 2.5em;
+  
+  font-family:  Montserrat, sans-serif;
+  font-size: 1.6em;
+  color: #272932;
+  width: 50em;
+  text-align: center;
+}
+
+
+.index{
+  position: fixed;
+  display: block;
+  margin-top: 0;
+  font-size: 2.7em;
+  font-style: italic;
+  font-family: Julius Sans One, sans-serif;
+  line-height: 100px;
+  background-color: #95D5B2;
+  width: 323px;
+  height: 700px;
+  color: #272932;
+  right: 0%;
+  top: 0px;
+  clear: left;
+  padding-top: 350px ;
+  z-index: 1;
+  
+  
+}
+
+#foto{
+  position: fixed;
+  right: 27px;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#local{
+  position: fixed;
+  z-index: 2;
+  color: #272932;
+  right: -3.5em;
+  top: 7.5em;
+
+
+}
+
+
+
+
+
+
+
