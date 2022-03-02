@@ -9,13 +9,13 @@ body{
 } 
 a{
   text-decoration: none;
-  color: #52b788;
+  color: #272932;
 } 
 header{
   height: 230px;
   width: 1455px;
   padding: 20px 0 70px 0;
-  background: #2d6a4f 50% 0;
+  background: #0F7173 50% 0;
   text-align: center;
   padding-right: 20%;  
 }
@@ -41,33 +41,45 @@ h2 {
   font-size: 1.6em;
   font-style: italic;
 }
+a:hover{
+  color: #F05D5E;
+}
+
+
 .index{
   position: absolute;
   display: block;
   margin-top: 0;
   font-size: 2.2em;
-  font-style: normal;
-  
-  background-color: #1b4332;
+  font-style: italic;
+  line-height: 100px;
+  background-color: #E7ECEF;
   width: 323px;
   height: 700px;
-  color: #52b788;
+  color: #272932;
   left: 80%;
   top: 0px;
   clear: left;
   padding-top: 350px ;
   z-index: 1;
   
+  
 }
 
 #foto{
   position: absolute;
-  right: 10px;
+  right: 27px;
   top: 10px;
   border-radius: 50%;
   z-index: 2;
 }
 
+#local{
+  position: absolute;
+  z-index: 2;
+  color: #272932;
+  right: -90px;
+}
 
 
 
