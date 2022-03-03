@@ -3,113 +3,46 @@ html, body{
   margin: 0;
 }
 body{
-  color: #40916c;
+  color: #272727;
   background-color: #fff;
   font-family: Montserrat, sans-serif;
 } 
-a{
-  text-decoration: none;
-  color: #272932;
-} 
-header{
-  max-height: 200px;
-  width: 80%;
-  padding: 20px 0 70px 0;
-  background: #2D6A4F 50% 0;
-  text-align: center;
-  padding-right: 20%;  
-}
 h1, h2 {
   padding: 0 10%;
   margin: 0;
-  color: rgba(255,255,255,0.6);
+  color: #fff;
   font-weight: normal;
 }
 h1 {
   padding-top: 0;
   padding-bottom: 5px;
   border-bottom: none;
-  font-size: 3.5em;
-  
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
 }
-h2 {
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 30px;
-  border-top: none;
-  color: rgba(255,255,255,0.6);
-  font-size: 2.5em;
-  font-style: italic;
+p {
+  margin: 0.75em 0;
+  line-height: 2;
 }
-h3{
-  
-  padding-top: 5px;
-  padding-bottom: 0.1em;
-  border-top: none;
-  margin: 0;
-  font-size: 2.5em;
-  color: #272932;
-  width: 22em;
-  font-family: Julius Sans One;
+.header{
+  height: 230px;
+  padding: 20px 0 70px 0;
+  background: #2d6360 50% 0 no-repeat; /* old IE fallback */
   text-align: center;
 }
-a:hover{
-  color: #F05D5E;
+.main{
+
 }
-
-.conteudo{
-  position: absolute;
-  margin-left: 0;
-  background-color: #95D5c3;
-  font-family:  Montserrat, sans-serif;
-  font-size: 1.6em;
-  color: #272932;
-  width: 83%;
-  text-align: center;
-}
-
-
-.index{
-  position: fixed;
+.side{
   display: block;
-  margin-top: 0;
-  font-size: clamp(0.1em, 1em + 10vw, 2.7em);
-  font-style: italic;
-  font-family: Julius Sans One, sans-serif;
-  line-height: 100px;
-  background-color: #95D5B2;
-  width: 17%;
-  height: 700px;
-  color: #272932;
-  right: 0%;
-  top: 0px;
-  clear: left;
-  padding-top: 350px ;
-  z-index: 1;
-  
-  
+  margin-bottom: 0.25em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #272727;
 }
-
-#foto{
-  position: fixed;
-  right: 27px;
-  top: 10px;
-  border-radius: 50%;
-  z-index: 2;
-  width: 16%;
-}
-
-#local{
-  position: fixed;
-  z-index: 2;
-  color: #272932;
-  right: -3.5em;
-  top: 7.5em;
-
-
-}
-
-
 
 
 
