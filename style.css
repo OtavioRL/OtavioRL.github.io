@@ -103,5 +103,16 @@ li.viewall a {
   background-color: ;
 }
 #foto{
-  max-width: 18vw;
+  max-width: 100%;
 }
+
+@media (max-width:1193px){
+  .sidebar{
+    display: none;
+  }
+}
+/* @media (max-width:500px){
+  h1{
+    font-size: 1em;
+  }
+} */
