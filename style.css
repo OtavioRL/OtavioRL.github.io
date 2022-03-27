@@ -87,7 +87,7 @@ p {
     color-stop(0%, rgba(255, 255, 255, 0)),
     color-stop(50%, rgba(255, 255, 255, 0.5)),
     color-stop(100%, rgba(255, 255, 255, 0))
-  ); /* Chrome,Safari4+ */
+  ); 
 }
 .design-selection li:nth-child(2n + 1) {
   clear: left;
@@ -103,5 +103,16 @@ li.viewall a {
   background-color: ;
 }
 #foto{
-  max-width: 18vw;
+  max-width: 100%;
 }
+
+@media (max-width:1193px){
+  .sidebar{
+    display: none;
+  }
+}
+/* @media (max-width:500px){
+  h1{
+    font-size: 1em;
+  }
+} */
