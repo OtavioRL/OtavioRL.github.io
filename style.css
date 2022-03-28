@@ -1,118 +1,30 @@
-html, body {
-  padding: 0;
-  margin: 0;
-}
 body {
-  color: #272727;
-  background-color: rgba(138,188,159,0.5);
-  font-family: Montserrat, sans-serif;
+  background-color: #cee2f1;
 }
-h1,
-h2 {
-  padding: 0 10%;
-  margin: 0;
+header {
   color: #fff;
-  font-weight: normal;
+  max-height: 20%;
+  background-color: #5995DA;
 }
-h1 {
-  padding-top: 0;
-  padding-bottom: 5px;
-  border-bottom: none;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 3.2em;
-  text-transform: uppercase;
-}
-h3{
-  font-family: Julius Sans One, Montserrat, sans-serif;
-  font-size: 2em;
-}
-p {
-  margin: 0.75em 0;
-  line-height: 2;
-}
-.header {
-  height: fit-content;
-  padding: 20px 0 70px 0;
-  background: #2d6360 50% 0 no-repeat; 
-  text-align: center;
-}
-.main {
-  font-size: 2em;
-  text-align: center;
-  
-}
-.sidebar {
-  background: #edf4f0;
+aside {
+  max-width: 20vw;
+  width: 15vw;
+  height: 100vw;
   float: right;
-  max-width: 20%;
+  display: flex;
+  flex-flow: column wrap;
+
+}
+img {
+  border-radius: 50%;
+}
+ section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   
-
-  
 }
-.sidebar h3 {
-  display: none;
+#small1 {
+  font-size: 70%;
 }
-.sidebar a {
-  color: #607476;
-  text-decoration: none;
-}
-.sidebar a:hover,
-.sidebar a:focus {
-  color: #49968e;
-}
-.sidebar ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  overflow: hidden;
-}
-
-.design-selection ul {
-  margin: 0;
-}
-.design-selection li {
-  float: left;
-  width: 50%;
-  padding: 1.5em 10%;
-  border-top: solid 1px #d9e3dc;
-  color: #c0cac3;
-  font-style: italic;
-}
-.design-selection li:hover,
-.design-selection li:focus {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(0%, rgba(255, 255, 255, 0)),
-    color-stop(50%, rgba(255, 255, 255, 0.5)),
-    color-stop(100%, rgba(255, 255, 255, 0))
-  ); 
-}
-.design-selection li:nth-child(2n + 1) {
-  clear: left;
-}
-.design-selection .design-name,
-li.viewall a {
-  display: block;
-  margin-bottom: 0.25em;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 1.5em;
-  font-style: normal;
-  text-transform: uppercase;
-  background-color: ;
-}
-#foto{
-  max-width: 100%;
-}
-
-@media (max-width:1193px){
-  .sidebar{
-    display: none;
-  }
-}
-/* @media (max-width:500px){
-  h1{
-    font-size: 1em;
-  }
-} */
